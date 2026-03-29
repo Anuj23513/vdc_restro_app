@@ -22,7 +22,7 @@ export default function CartScreen() {
       Alert.alert('Cart Empty', 'Please add items to cart before checkout');
       return;
     }
-    router.push('/checkout' as any);
+    router.push('/(customer)/checkout');
   };
 
   const renderCartItem = ({ item }: any) => (
